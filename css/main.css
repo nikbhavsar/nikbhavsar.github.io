@@ -576,7 +576,7 @@ textarea {
     top: 0;
     left: 0;
 }
-
+ 
 .multi-graph .graph:after {
     background: #eee;
     border: medium none;
@@ -892,11 +892,13 @@ section.model-3 .graph {
 .experience-card {
     background-color: #53bbfd;
     color: #ebf7ff;
-    box-shadow: 0 0 15px rgb(255, 255, 255,0.3);
+    border-radius: 30px;
+    border-width: 10px;
+    box-shadow: 0 0 15px rgba(10, 10, 10, 0.3);
     padding-top: 60px;
     padding-bottom: 30px;
-    padding-left: 30px;
 }
+
 
 .program {
     font-size: 28px;
@@ -906,7 +908,6 @@ section.model-3 .graph {
 .school {
     font-size: 20px;
     margin-bottom: 5px;
-  
     text-transform: uppercase;
 }
 
@@ -915,7 +916,6 @@ section.model-3 .graph {
     margin-bottom: 30px;
     text-transform: uppercase;
     font-weight: 100;
-  
 }
 
 .year {
@@ -924,4 +924,33 @@ section.model-3 .graph {
 
 .contact-fa {
     color: #3A4B53;
+}
+
+
+/* Mobile */
+
+
+@media only screen and (max-width: 600px) {
+
+    p{
+        text-align: center;
+    }
+
+    .about-description{
+        text-align: center;
+    }
+    .project-container{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .program{
+        text-align: center;
+    }
+    .school{
+        text-align: center;
+    }
+    .city{
+        text-align: center;
+    }
+
 }
