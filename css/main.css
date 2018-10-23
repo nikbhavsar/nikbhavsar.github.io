@@ -398,6 +398,7 @@ textarea {
 
 .jumbotron-fluid {
     background: linear-gradient( rgba(33,166,231,0.9), rgba(33,166,231,0.9)), url("../img/coder-coding-at-laptop-web.jpg");
+    background-attachment: fixed;
     height:100vh;
     color: white;
     overflow: hidden;
@@ -924,6 +925,12 @@ section.model-3 .graph {
 
 .contact-fa {
     color: #3A4B53;
+}
+
+.copyright{
+    font-size: 15px;
+    font-weight: normal;
+    margin-top: 32px;
 }
 
 
