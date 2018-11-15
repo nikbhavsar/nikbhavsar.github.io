@@ -296,7 +296,6 @@ textarea {
 }
 
 .section-container {
-    
     padding-top: 30px;
     padding-bottom: 50px;
 }
@@ -320,6 +319,10 @@ textarea {
 .loader span {
     display: inline-block;
     animation: pulse 0.9s alternate infinite ease-in-out;
+    -webkit-animation: pulse 0.9s alternate infinite ease-in-out;
+    -moz-animation: pulse 0.9s alternate infinite ease-in-out;
+    -o-animation: pulse 0.9s alternate infinite ease-in-out;
+    -ms-animation: pulse 0.9s alternate infinite ease-in-out;
 }
 
 .loader span::nth-child(odd) {
@@ -329,6 +332,10 @@ textarea {
 .loader .message {
     display: inline-block;
     animation: pulsemessage 0.9s alternate infinite ease-in-out;
+    -webkit-animation: pulsemessage 0.9s alternate infinite ease-in-out;
+    -moz-animation: pulsemessage 0.9s alternate infinite ease-in-out;
+    -o-animation: pulsemessage 0.9s alternate infinite ease-in-out;
+    -ms-animation: pulsemessage 0.9s alternate infinite ease-in-out;
 }
 
 .loader .message::nth-child(odd) {
@@ -363,7 +370,6 @@ textarea {
 }
 
 .navbar {
-   
     background-color: #3A4B53;
     padding-top: 0px !important;
     padding-bottom: 0px !important;
@@ -373,18 +379,16 @@ textarea {
     color: white !important;
 }
 
-
-.navbar li .active{
+.navbar li .active {
     color: #ABDFFF !important;
     font-weight: bold;
 }
 
-.icon-bar{
-
+.icon-bar {
     color: white;
     background-color: white;
-
 }
+
 .navbar-brand {
     padding-left: 30px;
     font-size: 50px;
@@ -397,9 +401,9 @@ textarea {
 /* Jumbotron Section CSS */
 
 .jumbotron-fluid {
-    background: linear-gradient( rgba(33,166,231,0.9), rgba(33,166,231,0.9)), url("../img/coder-coding-at-laptop-web.jpg");
+    background: linear-gradient( rgba(33, 166, 231, 0.9), rgba(33, 166, 231, 0.9)), url("../img/coder-coding-at-laptop-web.jpg");
     background-attachment: fixed;
-    height:100vh;
+    height: 100vh;
     color: white;
     overflow: hidden;
     margin: 0;
@@ -419,7 +423,7 @@ textarea {
     font-weight: 900;
     line-height: 50px;
     color: whitesmoke;
-   /* text-shadow: 0 1.36px 2.896px #D1C4E9, 0 -4px 2px #fff; */
+    /* text-shadow: 0 1.36px 2.896px #D1C4E9, 0 -4px 2px #fff; */
     text-shadow: 3px -4.36px 0.896px #3A4B53, 3px -4px 2px #fff;
     letter-spacing: -2px;
 }
@@ -444,6 +448,10 @@ textarea {
     font-size: 35px;
     font-weight: bold;
     transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
 }
 
 .about-animated-button:hover .hover-text {
@@ -462,18 +470,6 @@ textarea {
     color: white !important;
     border-color: gray;
 }
-
-.animated-cloud{
-
-
-    max-height: 500px;
-    animation: raining-cloud 25s ease-in-out infinite;
-    align-self: center;
-    margin-bottom: -200px;
-}
-
-
-
 
 /*  Skills Section*/
 
@@ -516,12 +512,20 @@ textarea {
     border-top: none;
     position: absolute;
     -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    -ms-transition: 0.3s;
     transition: 0.3s;
     -ms-transform-origin: 50% 0%;
     -webkit-transform-origin: 50% 0%;
+    -moz-transform-origin: 50% 0%;
+    -o-transform-origin: 50% 0%;
     transform-origin: 50% 0%;
     border-radius: 0 0 300px 300px;
     -webkit-animation: demo 2s;
+    -moz-animation: demo 2s;
+    -o-animation: demo 2s;
+    -ms-animation: demo 2s;
     animation: demo 2s;
     left: 0;
     top: 100%;
@@ -533,6 +537,8 @@ textarea {
     border-color: rgba(0, 0, 0, 0.15);
     -ms-transform: rotate(180deg);
     -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
     transform: rotate(180deg);
 }
 
@@ -577,7 +583,7 @@ textarea {
     top: 0;
     left: 0;
 }
- 
+
 .multi-graph .graph:after {
     background: #eee;
     border: medium none;
@@ -608,6 +614,7 @@ textarea {
 section.model-3 .html-css:before {
     -ms-transform: rotate(40deg);
     -webkit-transform: rotate(40deg);
+    -o-transform: rotate(40deg);
     transform: rotate(40deg);
     border-color: #3eb0f7;
     z-index: 5;
@@ -616,6 +623,7 @@ section.model-3 .html-css:before {
 section.model-3 .javascript:before {
     -ms-transform: rotate(90deg);
     -webkit-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
     transform: rotate(90deg);
     border-color: #87cefa;
     z-index: 4;
@@ -624,6 +632,7 @@ section.model-3 .javascript:before {
 section.model-3 .angular:before {
     -ms-transform: rotate(130deg);
     -webkit-transform: rotate(130deg);
+    -o-transform: rotate(130deg);
     transform: rotate(130deg);
     border-color: #8795fa;
     z-index: 3;
@@ -632,13 +641,16 @@ section.model-3 .angular:before {
 section.model-3 .hidden-skill1:before {
     -ms-transform: rotate(160deg);
     -webkit-transform: rotate(160deg);
+    -o-transform: rotate(160deg);
     transform: rotate(160deg);
     border-color: #87faed;
     z-index: 2;
 }
+
 section.model-3 .hidden-skill2:before {
     -ms-transform: rotate(180deg);
     -webkit-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
     transform: rotate(180deg);
     border-color: #87cefa;
     z-index: 1;
@@ -647,6 +659,7 @@ section.model-3 .hidden-skill2:before {
 section.model-3 .android:before {
     -ms-transform: rotate(50deg);
     -webkit-transform: rotate(50deg);
+    -o-transform: rotate(50deg);
     transform: rotate(50deg);
     border-color: #3eb0f7;
     z-index: 4;
@@ -655,6 +668,7 @@ section.model-3 .android:before {
 section.model-3 .material:before {
     -ms-transform: rotate(110deg);
     -webkit-transform: rotate(110deg);
+    -o-transform: rotate(110deg);
     transform: rotate(110deg);
     border-color: #87cefa;
     z-index: 3;
@@ -663,20 +677,25 @@ section.model-3 .material:before {
 section.model-3 .rest:before {
     -ms-transform: rotate(140deg);
     -webkit-transform: rotate(140deg);
+    -o-transform: rotate(140deg);
     transform: rotate(140deg);
     border-color: #8795fa;
     z-index: 2;
 }
+
 section.model-3 .hidden-skill1:before {
     -ms-transform: rotate(160deg);
     -webkit-transform: rotate(160deg);
+    -o-transform: rotate(160deg);
     transform: rotate(160deg);
     border-color: #87faed;
     z-index: 1;
 }
+
 section.model-3 .hidden-skill2:before {
     -ms-transform: rotate(180deg);
     -webkit-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
     transform: rotate(180deg);
     border-color: #87cefa;
     z-index: -1;
@@ -689,16 +708,20 @@ section.model-3 .java:before {
     border-color: #3eb0f7;
     z-index: 4;
 }
+
 section.model-3 .hidden-skill1:before {
     -ms-transform: rotate(150deg);
     -webkit-transform: rotate(150deg);
+    -o-transform: rotate(150deg);
     transform: rotate(150deg);
     border-color: #87faed;
     z-index: 1;
 }
+
 section.model-3 .hidden-skill2:before {
     -ms-transform: rotate(180deg);
     -webkit-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
     transform: rotate(180deg);
     border-color: #87cefa;
     z-index: 0;
@@ -711,10 +734,14 @@ section.model-3 .graph {
 @-webkit-keyframes demo {
     0% {
         -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
         transform: rotate(0deg);
     }
     50% {
         -webkit-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        -o-transform: rotate(180deg);
         transform: rotate(180deg);
     }
 }
@@ -723,11 +750,13 @@ section.model-3 .graph {
     0% {
         -ms-transform: rotate(0deg);
         -webkit-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
         transform: rotate(0deg);
     }
     50% {
         -ms-transform: rotate(180deg);
         -webkit-transform: rotate(180deg);
+        -o-transform: rotate(180deg);
         transform: rotate(180deg);
     }
 }
@@ -740,7 +769,6 @@ section.model-3 .graph {
 }
 
 .project-card {
-
     font-size: 20px;
     overflow: hidden;
     box-shadow: 0 0 15px rgba(10, 10, 10, 0.3);
@@ -795,13 +823,12 @@ section.model-3 .graph {
     border-left-color: inherit;
 }
 
-.fa-github{
-
+.fa-github {
     color: #3A4B53;
     font-size: 30px;
 }
 
-.fa-play{
+.fa-play {
     font-size: 30px;
 }
 
@@ -864,11 +891,26 @@ section.model-3 .graph {
 .card:hover {
     -webkit-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
     -webkit-transform-origin: 100% 0%;
+    -ms-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+    -ms-transform-origin: 100% 0%;
+    -o-transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+    -o-transform-origin: 100% 0%;
+    transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+    transform-origin: 100% 0%;
+    -webkit-transition: all 3s;
+    -moz-transition: all 3s;
+    -o-transition: all 3s;
     transition: all 3s;
 }
 
 .card-column:hover {
+    -webkit-transform: scaleY(1.2);
+    -ms-transform: scaleY(1.2);
+    -o-transform: scaleY(1.2);
     transform: scaleY(1.2);
+    -webkit-transition: all 3s;
+    -ms-transition: all 3s;
+    -o-transition: all 3s;
     transition: all 3s;
     z-index: 1001;
 }
@@ -900,7 +942,6 @@ section.model-3 .graph {
     padding-bottom: 30px;
 }
 
-
 .program {
     font-size: 28px;
     margin-bottom: 15px;
@@ -927,37 +968,107 @@ section.model-3 .graph {
     color: #3A4B53;
 }
 
-.copyright{
-    font-size: 15px;
-    font-weight: normal;
-    margin-top: 32px;
-}
-
 
 /* Mobile */
 
-
 @media only screen and (max-width: 600px) {
-
-    p{
+    p {
         text-align: center;
     }
-
-    .about-description{
+    .about-description {
         text-align: center;
     }
-    .project-container{
+    .project-container {
         padding-left: 0px;
         padding-right: 0px;
     }
-    .program{
+    .program {
         text-align: center;
     }
-    .school{
+    .school {
         text-align: center;
     }
-    .city{
+    .city {
         text-align: center;
     }
+}
+
+/* Testimonials */
+
+
+.some-good-words{
+
+    display: flex;
+    justify-content: center;
 
 }
+
+blockquote {
+    font-size: 18px;
+    max-width: 900px;
+    font-style: italic;
+    margin: 0.25em 0;
+    padding: 0.35em 80px;
+    line-height: 1.45;
+    position: relative;
+}
+
+blockquote:before {
+    display: block;
+    padding-left: 10px;
+    content: "\201C";
+    font-size: 100px;
+    position: absolute;
+    left: -25px;
+    top: -70px;
+    color: #f0f0f0;
+}
+
+blockquote:after {
+    display: block;
+    padding-left: 10px;
+    content: "\201D";
+    font-size: 100px;
+    position: absolute;
+    right: -25px;
+    bottom: -70px;
+    color: #f0f0f0;
+  
+}
+
+.justin-image {
+
+    margin-bottom: 50px;
+    margin-top: 30px;
+    width: 180px;
+    height: 180px;
+}
+
+.quote-cite{
+    margin-top: 20px;
+}
+
+.justin-name{
+    
+
+        text-transform: capitalize;
+        font-weight: bold;
+        font-size: 30px; 
+        margin-bottom: 5px;
+        margin-top: 50px;
+  
+}
+
+.position{
+    margin-top: -10px;
+    margin-bottom: 80px;
+}
+
+
+.copyright {
+    font-size: 15px;
+    font-weight: normal;
+}
+
+
+
