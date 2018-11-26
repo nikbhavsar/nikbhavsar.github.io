@@ -772,10 +772,11 @@ section.model-3 .graph {
     font-size: 20px;
     overflow: hidden;
     box-shadow: 0 0 15px rgba(10, 10, 10, 0.3);
-    -webkit-transform: rotateX(0deg) rotateY(0deg) rotateZ(180deg);
+    height: 100% !important;
+    /* -webkit-transform: rotateX(0deg) rotateY(0deg) rotateZ(180deg);
     -webkit-transform-origin: 50% 50%;
-    transition: all 3s;
-    z-index: 999;
+    transition: all 3s; */
+    /* z-index: 999; */
 }
 
 .card-column {
