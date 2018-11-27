@@ -15,6 +15,7 @@ $(function () {
     });
 });
 
+
 // Header Animation
 
 var whoAmI = ["Software Developer", "Web Developer", "Android Developer"];
@@ -24,7 +25,6 @@ var color2 = ["#C6C5C3", "#D1C4DF", "#F0DF9D"];
 var jobType = document.querySelector(".developer-span");
 var myName = document.querySelector(".name-span");
 var slogan = document.querySelector(".slogan-span");
-
 var i = 0;
 
 setInterval(function () {
@@ -39,6 +39,41 @@ setInterval(function () {
 }, 1250);
 
 
+//Section Hide and Display Effect
 
+    const targetHeading = document.querySelectorAll(".plus-minus");
+
+    console.log(targetHeading);
+
+    for(var j=0 ; j<targetHeading.length; j++){
+
+        targetHeading[j].addEventListener("click", function(event){  
+
+      
+ 
+            if(event.target.className === "fas fa-minus-circle plus-minus"){
+                
+               event.target.className = "fas fa-plus-circle plus-minus";
+       
+                if( (event.target.parentNode.parentNode.children)[1].classList.contains("d-flex")){
+                   (event.target.parentNode.parentNode.children)[1].classList.remove("d-flex");
+                }
+               
+                (event.target.parentNode.parentNode.children)[1].style.display = "none";
+            } else {
+                event.target.className = "fas fa-minus-circle plus-minus";
+                (event.target.parentNode.parentNode.children)[1].classList.add("d-flex");
+            }
+        
+           }
+           ,false);
+        
+       
+
+    }
+
+  
+
+  
 
 
