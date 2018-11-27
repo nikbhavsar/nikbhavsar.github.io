@@ -360,6 +360,63 @@ textarea {
     }
 }
 
+
+
+.plus-minus{
+    -moz-animation: bounce 2s infinite;
+    -webkit-animation: bounce 2s infinite;
+    animation: bounce 2s infinite;
+}
+
+
+@-moz-keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      -moz-transform: translateY(0);
+      transform: translateY(0);
+    }
+    40% {
+      -moz-transform: translateY(-20px);
+      transform: translateY(-20px);
+    }
+    60% {
+      -moz-transform: translateY(-8px);
+      transform: translateY(-8px);
+    }
+  }
+  @-webkit-keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+    40% {
+      -webkit-transform: translateY(-2px);
+      transform: translateY(-20px);
+    }
+    60% {
+      -webkit-transform: translateY(-8px);
+      transform: translateY(-8px);
+    }
+  }
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      -moz-transform: translateY(0);
+      -ms-transform: translateY(0);
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+    40% {
+      -moz-transform: translateY(-20px);
+      -ms-transform: translateY(-20px);
+      -webkit-transform: translateY(-20px);
+      transform: translateY(-20px);
+    }
+    60% {
+      -moz-transform: translateY(-8px);
+      -ms-transform: translateY(-8px);
+      -webkit-transform: translateY(-8px);
+      transform: translateY(-8px);
+    }
+  }
 /* Navbar */
 
 .navbar-icons {
@@ -765,6 +822,10 @@ section.model-3 .graph {
 
 /* Project Section */
 
+#card-deck {
+    margin-left: 20px;
+    margin-right: 20px;
+}
 .card-container {
     max-width: 800px;
     align-self: center;
@@ -775,6 +836,7 @@ section.model-3 .graph {
     overflow: hidden;
     box-shadow: 0 0 15px rgba(10, 10, 10, 0.3);
     height: 100% !important;
+    margin: 20px;
     /* -webkit-transform: rotateX(0deg) rotateY(0deg) rotateZ(180deg);
     -webkit-transform-origin: 50% 50%;
     transition: all 3s; */
