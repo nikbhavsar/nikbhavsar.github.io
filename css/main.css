@@ -360,12 +360,20 @@ textarea {
     }
 }
 
-
+/* Icon Animation */
 
 .plus-minus{
     -moz-animation: bounce 2s infinite;
     -webkit-animation: bounce 2s infinite;
     animation: bounce 2s infinite;
+}
+
+.heading:hover .plus-minus{
+    cursor: pointer;
+    -webkit-animation-play-state: paused;
+    -moz-animation-play-state: paused;
+    -o-animation-play-state: paused;
+    animation-play-state: paused;
 }
 
 
